@@ -8,6 +8,7 @@ import com.wipro.bookingpayment.service.PaymentService;
 
 @RestController
 @RequestMapping("/payment")
+@CrossOrigin(origins = "*")
 public class PaymentController {
     @Autowired
     private PaymentService paymentService;
